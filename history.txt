@@ -1,0 +1,157 @@
+    1  conda list
+    2  ls
+    3  cd Downloads/
+    4  ls
+    5  ls -la
+    6  sudo bash Miniconda3-latest-Linux-x86_64.sh
+    7  cd
+    8  ls
+    9  conda list
+   10  ls
+   11  cd RoboND-Python-StarterKit
+   12  ls
+   13  conda env create -f environment.yml
+   14  source activate RoboND
+   15  cd 
+   16  ls
+   17  cd RoboND-Rover-Project/
+   18  ls
+   19  cd code
+   20  ls
+   21  python drive_rover.py
+   22  source activate tf2
+   23  conda install -c conda-forge ffmpeg
+   24  conda list
+   25  conda env list
+   26  conda create -n tf2 python=3.6
+   27  conda update -n base -c defaults conda
+   28  conda update conda
+   29  source activate tf2
+   30  pip install tensorflow
+   31  pip install gym[atari]
+   32  pip install matplotlib
+   33  pip install JSAnimation
+   34  conda install -c nb_conda_kernels
+   35  conda install -c conda-forge nb_conda_kernels
+   36  jupyter notebook
+   37  gcc --version
+   38  sudo apt update
+   39  sudo apt install build-essential
+   40  sudo dpkg --configure -a
+   41  sudo apt install build-essential
+   42  sudo apt-get install manpages-dev
+   43  gcc --version
+   44  ls
+   45  cd CPP
+   46  ls
+   47  gcc pgm1.cpp -o test
+   48  g++ pgm1.cpp -o test
+   49  ./test
+   50  g++ pgm1.cpp -o test
+   51  ./test
+   52  g++ pgm1.cpp -o test
+   53  ./test
+   54  g++ pgm1.cpp -o test
+   55  ./test
+   56  gcc pgm1.cpp -lstdc++ -o test
+   57  ./test
+   58  g++ -version
+   59  g++ --version
+   60  gcc pgm1.cpp -lstdc++ -std=c++17  -o test
+   61  ./test
+   62  g++ pgm1.cpp -std=c++17 -o test
+   63  ./test
+   64  g++ pgm1.cpp -std=c++17 -o test
+   65  ./test
+   66  g++ pgm1.cpp -std=c++17 -o test
+   67  ./test
+   68  g++ pgm1.cpp -std=c++17 -o test
+   69  ./test
+   70  git
+   71  cd ..
+   72  sudo apt install git
+   73  pwd
+   74  ls
+   75  cd CPP
+   76  git init
+   77  git status
+   78  git -add 
+   79  git add 
+   80  git add .
+   81  git status
+   82  git commit -m "practice cpp"
+   83  git config user.email "seben0fnine@gmail.com"
+   84  git config user.name "Seben0fnine"
+   85  git commit -m "practice cpp"
+   86  git remote add origin https://github.com/Seben0fnine/CPP.git
+   87  git push -u origin master
+   88  g++ pgm2.cpp -std=c++17 -o test
+   89  ./test
+   90  g++ pgm3.cpp -std=c++17 -o test
+   91  ./test
+   92  g++ pgm3.cpp -std=c++17 -o test
+   93  ./test
+   94  g++ pgm4.cpp -std=c++17 -o test
+   95  ./test
+   96  git status
+   97  git add .
+   98  git commit -m "practice cpp"
+   99  git push -u origin master
+  100  pwd
+  101  cd CPP
+  102  g++ pgm4.cpp -std=c++17 -o test
+  103  ./test
+  104  g++ pgm5.cpp -std=c++17 -o test
+  105  ./test
+  106  g++ pgm5.cpp -std=c++17 -o test
+  107  ./test
+  108  cd CPP
+  109  g++ pgm6.cpp -std=c++17 -o test
+  110  ./test
+  111  g++ pgm6.cpp -std=c++17 -o test
+  112  ./test
+  113  g++ pgm7.cpp -std=c++17 -o test
+  114  ./test
+  115  g++ pgm7.cpp -std=c++17 -o test
+  116  ./test
+  117  g++ pgm8.cpp -std=c++17 -o test
+  118  ./test
+  119  g++ pgm8.cpp -std=c++17 -o test
+  120  ./test
+  121  g++ pgm8.cpp -std=c++17 -o test
+  122  ./test
+  123  g++ pgm8.cpp -std=c++17 -o test
+  124  ./test
+  125  g++ pgm8.cpp -std=c++17 -o test
+  126  ./test
+  127  g++ pgm8.cpp -std=c++17 -o test
+  128  ./test
+  129  g++ pgm8.cpp -std=c++17 -o test
+  130  ./test
+  131  g++ pgm8.cpp -std=c++17 -o test
+  132  ./test
+  133  g++ pgm8.cpp -std=c++17 -o test
+  134  ./test
+  135  g++ pgm8.cpp -std=c++17 -o test
+  136  ./test
+  137  g++ pgm8.cpp -std=c++17 -o test
+  138  df
+  139  df -h
+  140  du -sh /var/cache/apt/archives
+  141  sudo du -sh /var/cache/apt/archives
+  142  sudo apt-get clean
+  143  df -h
+  144  sudo apt-get autoremove --purge
+  145  df -h
+  146  conda uninstall conda
+  147  df -h
+  148  sudo apt-get clean
+  149  df -h
+  150  conda uinstall miniconda
+  151  conda uninstall miniconda
+  152  rm -rf ~/miniconda
+  153  sudo apt-get clean
+  154  df -h
+  155  sudo apt-get clean
+  156  df -h
+  157  history >history.txt
